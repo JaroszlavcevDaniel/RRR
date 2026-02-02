@@ -1,0 +1,78 @@
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light px-4 fixed-top mb-5">
+
+  <a class="navbar-brand" routerLink="/">Ride. Rock. Repeat. </a>
+<img style="width: 4% !important;" src="images/ride_rock_repeat_logo.png" alt=""> 
+  <!-- TOGGLER (mobilhoz) -->
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#mainNavbar"
+    aria-controls="mainNavbar"
+    aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- COLLAPSE WRAPPER -->
+  <div class="collapse navbar-collapse" id="mainNavbar">
+
+    <!-- NG-CONTAINER, NEM UL -->
+    <ng-container *ngIf="content$ | async as content">
+
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <li class="nav-item">
+          <a class="nav-link text-light" [routerLink]="['/', currentLang, 'about']">
+            {{ content.navbar.about }}
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-light" [routerLink]="['/', currentLang, 'stories']">
+            {{ content.navbar.travel }}
+          </a>
+        </li>
+
+          <li class="nav-item">
+          <a class="nav-link text-light" [routerLink]="['/', currentLang, 'playlists']">
+            {{ content.navbar.playlists }}
+          </a>
+        </li>
+        <li class="nav-item">
+          <button *ngIf="!user" (click)="login()" class="btn btn-secondary">
+         Login by Google
+        </button>
+
+<div *ngIf="user">
+  👋 {{ user.displayName }}
+  <button (click)="logout()" class="btn btn-secondary">LogOut</button>
+</div>
+        </li>
+
+      </ul>
+
+    </ng-container>
+
+    <!-- LANGUAGE SWITCH -->
+    <div class="d-flex gap-2">
+      <button
+        class="btn btn-sm"
+        [class.btn-light]="currentLang === 'hu'"
+        [class.btn-outline-light]="currentLang !== 'hu'"
+        (click)="switchLanguage('hu')">
+        HU
+      </button>
+
+      <button
+        class="btn btn-sm"
+        [class.btn-light]="currentLang === 'en'"
+        [class.btn-outline-light]="currentLang !== 'en'"
+        (click)="switchLanguage('en')">
+        EN
+      </button>
+    </div>
+
+  </div>
+</nav>

@@ -1,0 +1,50 @@
+{
+  "hu": {
+    "navbar": {
+      "about": "Projektről",
+      "travel": "Utazási cíkkek",
+      "playlists": "Playlisztek"
+    },
+    "hero": {
+    "title": "Motorkerékpár. Zene. Utazás. Történetek az útról.",
+      "subtitle": "Ez nem egy tesztoldal. Nem egy influencer blog. Ez egy történet az útról egy motorral, zenével és gondolatokkal.",
+      "cta": "Olvasom tovább"
+    }
+  },
+  "en": {
+    "navbar": {
+      "about": "About projekt",
+      "travel": "Travel articles",
+       "playlists": "Playlists"
+    },
+    "hero": {
+      "title": "Motorcycle. Music. Travel. Stories from the road.",
+      "subtitle": "This is not a test site. Not an influencer blog. This is the story of the road with a motorbike, music and thoughts.",
+      "cta": "Read more"
+    }
+  },
+  "articles": [
+    {
+      "id": 1,
+      "featured": true,
+      "category": "motor",
+      "image": "",
+      "date": "2026-01-20",
+
+      "hu": {
+        "title": "Harley Davidson túra az Alpokban",
+        "slug": "harley-davidson-tura-alpokban",
+        "excerpt": "Egy motoros utazás, ahol az utak, a hegyek és a szabadság találkoznak.",
+        "content": "<p>Ez volt életem egyik legemlékezetesebb túrája...</p>"
+      },
+
+      "en": {
+        "title": "Harley Davidson trip in the Alps",
+        "slug": "harley-davidson-trip-alps",
+        "excerpt": "A motorcycle journey where roads, mountains and freedom meet.",
+        "content": "<p>This was one of the most memorable rides of my life...</p>"
+      }
+    }
+  ]
+}
+

@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
+    background-color: black !important; 
+}
+
+#home_banner_div {
+    background-image: url(
+        https://cloudfront-us-east-1.images.arcpublishing.com/octane/SOXBQ5XNTBHGTIEMYVJZNXPQFA.jpg
+        ); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.bannerText {
+    text-shadow: 5px 5px 5px rgb(61, 60, 60);
+}
+
+a:hover {
+    color: red !important;
+    }

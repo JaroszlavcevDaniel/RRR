@@ -1,0 +1,14 @@
+<div class="container m-1">
+    <div class="row">
+
+ <div class="col-lg-6 col-12 d-flex justify-content-end">
+  <img class="w-75 rounded-2" src="images/me.png" alt="">
+  </div>
+
+  <div *ngFor="let article of articles" class="col-lg-6 col-12">
+   <h1 class="text-light"></h1>
+  <p style="white-space: pre-line !important" class="text-light white-space: pre-line;">{{ article[lang].aboutText }}</p>
+  <p class="text-light"> </p>
+    </div>
+   </div>
+</div>

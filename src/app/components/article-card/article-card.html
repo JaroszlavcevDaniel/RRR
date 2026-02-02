@@ -1,0 +1,13 @@
+<div *ngIf="article && article[lang]" class="container my-5">
+
+  <h1>{{ article[lang].title }}</h1>
+
+  <img
+    [src]="article.image"
+    class="img-fluid my-4"
+  />
+
+  <div [innerHTML]="article[lang].content"></div>
+
+</div>
+

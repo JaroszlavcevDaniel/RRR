@@ -1,0 +1,26 @@
+{
+  "hu": {
+    "navbar": {
+      "home": "Főoldal",
+      "articles": "Cikkek",
+      "playlists": "Playlistek"
+    },
+    "hero": {
+      "title": "Ride. Rock. Repeat.",
+      "subtitle": "Motorok, zene és utazás – egy életérzés",
+      "cta": "Olvasd tovább"
+    }
+  },
+  "en": {
+    "navbar": {
+      "home": "Home",
+      "articles": "Articles",
+      "playlists": "Playlists"
+    },
+    "hero": {
+      "title": "Motorcycle. Music. Travel. Stories from the road.",
+      "subtitle": "This is not a test site. Not an influencer blog. This is the story of the road with a motorbike, music and thoughts.",
+      "cta": "Read more"
+    }
+  }
+}

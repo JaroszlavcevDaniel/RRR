@@ -1,0 +1,152 @@
+ <!-- ARTICLE + PHOTO -->
+<!-- <div class="container m-1">
+    <div class="row">
+
+ <div class="col-lg-6 col-12">
+  <img class="w-100 rounded-2" [src]="article?.image" alt="">
+  </div>
+
+  <div class="col-lg-6 col-12">
+   <h1 class="text-light">{{ article[lang]?.title }}</h1>
+  <markdown class="text-light">{{ article[lang]?.content }}</markdown>
+    </div>
+   </div>
+</div>
+LINKS 
+<div *ngIf="article.isThereLinks" class="text-info p-3">
+  <h4 >Links: 
+     <a target="_blank" class="text-decoration-none" [href]="article.linkOne"> {{article.linkOneName}} </a> 
+     <a target="_blank" class="text-decoration-none" [href]="article.linkTwo"> {{article.linkTwoName}} </a> 
+     <a target="_blank" class="text-decoration-none" [href]="article.linkThree"> {{article.linkThreeName}}</a> 
+     <a target="_blank" class="text-decoration-none" [href]="article.linkFour"> {{article.linkFourName}} </a> 
+     <a target="_blank" class="text-decoration-none" [href]="article.linkFive"> {{article.linkFiveName}} </a> 
+     <a target="_blank" class="text-decoration-none" [href]="article.linkSix"> {{article.linkSixName}} </a> 
+     <a target="_blank" class="text-decoration-none" [href]="article.linkSeven"> {{article.linkSevenName}} </a> 
+     <a target="_blank" class="text-decoration-none" [href]="article.linkEight"> {{article.linkEightName}} </a> 
+     <a target="_blank" class="text-decoration-none" [href]="article.linkNine"> {{article.linkNineName}} </a> 
+     <a target="_blank" class="text-decoration-none" [href]="article.linkTen"> {{article.linkTenName}} </a> 
+    </h4>
+</div>
+ CAROUSEL 
+<div *ngIf="article.isThereCarousel">
+
+<h2 class="text-light m-4"> {{ article[lang].carouselText }} </h2>
+
+<div id="carouselExample" class="carousel slide d-flex">
+  <div class="carousel-inner justify-content-center">
+
+ <div class="carousel-item active">
+      <img [src]="article.fotoOne" class="d-block w-75 mx-auto rounded-2" alt="...">
+    </div>
+       <div class="carousel-item">
+      <img [src]="article.fotoTwo" class="d-block w-75 mx-auto rounded-2" alt="...">
+    </div>
+       <div class="carousel-item">
+      <img [src]="article.fotoThree" class="d-block w-75 mx-auto rounded-2" alt="...">
+    </div>
+       <div class="carousel-item">
+      <img [src]="article.fotoFour" class="d-block w-75 mx-auto rounded-2" alt="...">
+    </div>
+       <div class="carousel-item">
+      <img [src]="article.fotoFive" class="d-block w-75 mx-auto rounded-2" alt="...">
+    </div>
+       <div class="carousel-item">
+      <img [src]="article.fotoSix" class="d-block w-75 mx-auto rounded-2" alt="...">
+    </div>
+       <div class="carousel-item">
+      <img [src]="article.fotoSeven" class="d-block w-75 mx-auto rounded-2" alt="...">
+    </div>
+
+    <div class="carousel-item">
+      <img [src]="article.fotoNine" class="d-block w-75 mx-auto rounded-2" alt="...">
+    </div>
+     <div class="carousel-item ">
+      <img [src]="article.fotoTen" class="d-block w-75 mx-auto rounded-2" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+</div> -->
+<!-- ARTICLE SECOND PART IF NEED  -->
+<!-- <markdown class="text-light m-4 p-1">{{ article[lang].contentSecondPart }}</markdown> -->
+
+<!-- COMMENTS  -->
+<!-- <div class="container">
+
+<h3 class="text-light">Kommentek</h3>
+
+<div *ngFor="let comment of comments" class="comment">
+  <img [src]="comment.userPhoto" width="32" />
+  <strong>{{ comment.userName }}</strong>
+  <p>{{ comment.text }}</p>
+</div>
+
+<div *ngIf="user; else loginHint">
+  <textarea
+    [(ngModel)]="newComment" placeholder="Írj egy kommentet..." class="form-text col-12"
+  ></textarea>
+  <br>
+  <button (click)="addComment()" class="btn btn-secondary m-2">Küldés</button>
+</div>
+
+<ng-template #loginHint>
+  <p class="text-light">🔒 Kommenteléshez jelentkezz be Google-lel</p>
+</ng-template>
+
+</div> -->
+<!-- COMMENTS  -->
+<div class="container mt-4">
+
+<h3 class="text-light mb-3">Kommentek</h3>
+
+<div *ngIf="comments.length === 0" class="text-light mb-3">
+  <p>Még nincsenek kommentek. Légy te az első!</p>
+</div>
+
+<div *ngFor="let comment of comments" class="comment mb-3 p-3 bg-dark rounded">
+  <div class="d-flex align-items-center mb-2">
+    <img [src]="comment.userPhoto || '/images/UserAvatar.jpg'" 
+         width="32" 
+         height="32"
+         class="rounded-circle me-2"
+         alt="User avatar" />
+    <strong class="text-light">{{ comment.userName }}</strong>
+    <small class="text-muted ms-2" *ngIf="comment.createdAt">
+      {{ comment.createdAt.toDate() | date:'short' }}
+    </small>
+  </div>
+  <p class="text-light mb-0">{{ comment.text }}</p>
+</div>
+
+<div *ngIf="user; else loginHint" class="mt-4">
+  <textarea
+    [(ngModel)]="newComment" 
+    placeholder="Írj egy kommentet..." 
+    class="form-control mb-2"
+    rows="3"
+  ></textarea>
+  <button 
+    (click)="addComment()" 
+    class="btn btn-secondary"
+    [disabled]="!newComment.trim()"
+  >
+    Küldés
+  </button>
+</div>
+
+<ng-template #loginHint>
+  <div class="alert alert-info mt-4">
+    <p class="mb-0">🔒 Kommenteléshez jelentkezz be Google-lel</p>
+  </div>
+</ng-template>
+
+</div>

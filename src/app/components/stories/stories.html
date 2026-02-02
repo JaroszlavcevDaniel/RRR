@@ -1,0 +1,48 @@
+<div class="container text-light m-2">
+
+  <div *ngIf="articles.length > 0; else noArticles">
+    
+    <div class="row g-0">
+
+   
+    <div *ngFor="let article of articles" class="article-card col-4 m-1 bg-dark rounded-3 container p-2">
+      <div class="row">
+
+       <div class="col-6 align-items-center">
+      <img [src]="article.image" alt="Featured article image" class="img-fluid rounded-2 p-1 m-1" >
+    </div>
+      
+      <div class="card-body col-6">
+       
+        <h5 class="card-title text-light fw-bolder p-2">{{ article[lang]?.title }}</h5>
+        
+        <h6 class="p-2">{{ article[lang].excerpt }}</h6>
+        
+        <!-- Read More Link -->
+   <a class="text-light btn bg-black text-decoration-none fw-bold"[routerLink]="['/', lang, 'articles', article[lang].slug]">
+        {{ lang === 'hu' ? 'Olvasom tovább' : 'Read more' }} 
+      </a>
+      </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  
+  <!-- No articles fallback -->
+  <ng-template #noArticles>
+    <p class="no-articles">
+      {{ lang === 'hu' ? 'Nincsenek elérhető cikkek.' : 'No articles available.' }}
+    </p>
+  </ng-template>
+  
+</div>
+
+
+
+
+

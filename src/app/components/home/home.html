@@ -1,0 +1,14 @@
+<!-- HERO SZEKCIÓ  -->
+<div class="container-fluid bg-black" id="home_banner_div" *ngIf="content$ | async as content">
+  <br>
+    <p class="card-text m-3 text-light fw-bolder bannerText" style="font-size: 3em;">{{ content.hero.title }}</p>
+    <br>
+    <p class="card-text m-3 text-light fw-bold bannerText" style="font-size: 2em;">{{ content.hero.subtitle }}</p>
+    <br>
+    <button class="btn btn-dark fw-bolder m-3 p-2 fs-3" routerLink="stories"> {{ content.hero.cta }} </button>
+</div>
+<!-- KIEMELT CÍKKEK + LOGÓ -->
+<app-main-page class="bg-black"></app-main-page>
+
+<!-- <router-outlet></router-outlet> -->
+

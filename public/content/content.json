@@ -1,0 +1,164 @@
+{
+  "hu": {
+    "navbar": {
+      "about": "Projektről",
+      "travel": "Utazási cíkkek",
+      "playlists": "Playlisztek"
+    },
+    "hero": {
+    "title": "Motorkerékpár. Zene. Utazás. Történetek az útról.",
+      "subtitle": "Ez nem egy tesztoldal. Nem egy influencer blog. Ez egy történet az útról egy motorral, zenével és gondolatokkal.",
+      "cta": "Olvasom tovább"
+    }
+  },
+  "en": {
+    "navbar": {
+      "about": "About projekt",
+      "travel": "Travel articles",
+       "playlists": "Playlists"
+    },
+    "hero": {
+      "title": "Motorcycle. Music. Travel. Stories from the road.",
+      "subtitle": "This is not a test site. Not an influencer blog. This is the story of the road with a motorbike, music and thoughts.",
+      "cta": "Read more"
+    }
+  },
+  "articles": [
+    {
+      "id": 1,
+      "featured": true,
+      "isActive": true,
+      "isArticle": true,
+      "isPlaylist": false,
+      "category": "motor",
+      "image": "images/myTrip.png",
+      "date": "2026-01-29",
+      "isThereCarousel": true,
+      "fotoOne": "images/mytripHSI/efwef.png",
+      "fotoTwo": "images/mytripHSI/6f9eb712-ea39-416e-b15d-60c0af188af5.jpg",
+      "fotoThree": "images/mytripHSI/wefe.png",
+      "fotoFour": "images/mytripHSI/grwfe.png",
+      "fotoFive": "images/mytripHSI/fwefef.png",
+      "fotoSix": "images/mytripHSI/fwhefbhewf.png",
+      "fotoSeven": "images/mytripHSI/gwrwge.png",
+      "fotoEight": "images/mytripHSI/nhiubeufewe.png",
+      "fotoNine": "images/mytripHSI/wefewfewfwe.png",
+      "fotoTen": "images/mytripHSI/fweefewf.png",
+      "isThereLinks": true,
+      "linkOne": "https://1nitetent.com/en",
+      "linkOneName": "1NiteTent,",
+      "linkTwo": "/hu/articles/top-20-dolog-must-have-nomad-utazasban",
+      "linkTwoName": "Top-20 dolog, ami must-have egy nomad motoros utazásban",
+
+      "hu": {
+        "featuredText": "Kiemelt cíkk:",
+        "title": "Magyarországon Szlovénián és Olaszországon keresztül",
+        "slug": "utazasom-magyarorszagon-szlovenian-es-olaszorszagon-keresztul",
+        "excerpt": "Egy motoros utazás, ahol az utak, a hegyek és a szabadság találkoznak.",
+        "content": "\n \n## Nomád motoros utazás Európán át – 3500 km szabadság ## \n \n Ez az út nem egy klasszikus „A-ból B-be” túra volt. \n \n Ez egy nomád motoros utazás volt – sátrazással, ismeretlen emberekkel, viharokkal, adrenalinnal és azzal az érzéssel, amiért az ember motorra ül: a szabadsággal. \n \n ## Indulás Kisvárdáról – az első kilométerek ## \n \n Az utazás Kisvárdáról indult. Magyarországon keresztül haladtam, hagytam, hogy az út vezessen, nem egy percre pontos terv. Az első komolyabb megálló Budapest volt, ott találkoztam a kedves barátommal és finom ebédet rendeztünk – innen már egyre jobban érezni lehetett, hogy ez több lesz, mint egy sima túra. \n \n ## Balaton, víz és nyugalom ## \n \n A következő fontos pont a Balaton volt. Fürdés, megállás, lassítás. Ilyenkor érzi az ember igazán, hogy nem siet sehova. A motor pihen, a fej kitisztul, az út folytatódik. \n \n ## Csesztreg – ahol az idegenek családdá válnak ## \n \n Az első igazán emlékezetes éjszaka Csesztregen, a magyar–osztrák–szlovén határ közelében volt. Egy addig teljesen ismeretlen családnál aludtam, akik megengedték, hogy sátorozzak a kertjükben. Őket a 1nitetent.com oldalon találtam – és minden várakozásomat felülmúlták. Végtelenül kedvesek, nyitottak, segítőkészek voltak. Ez az a pont, ahol az ember újra hisz az emberekben. \n \n ## Szlovénia – hegyek, kanyarok, közutak ## \n \n Innen Szlovénián keresztül mentem tovább, végig közutakon, hegyeken, kanyarokon át. Motoros szempontból ez maga a paradicsom: változatos táj, jó utak, elképesztő panorámák. Itt minden kilométer élmény. ",
+        "carouselText": "Még néhány fénykép:",
+        "contentSecondPart": " \n \n ## Olaszország – tenger, városok, történelem ## \n \n Szlovéniából átgurultam Olaszországba. Grado közelében végre elértem a tengert – fürdés, sós víz, napfény. Az éjszakát Aquileiában töltöttem, egy olyan városban, ahol a történelem szinte a kövek között él. Természetesen Velence sem maradhatott ki – sétálás, elveszés az utcákon, nézelődés. Ezután dél felé vettem az irányt: San Marinón keresztül egészen Anconáig.  \n \n ## Újabb ismeretlenek, újabb kedvesség ## \n \n Anconánál ismét egy 1nitetent.com-on talált családnál aludtam. Megint ugyanaz az élmény: idegenek, akik úgy fogadtak, mintha régi ismerős lennék. Ezek azok a pillanatok, amik örökre veled maradnak. Riccione, Rimini, majd vissza északra Az út folytatódott: Riccione – pihenés \n \n Rimini – esti séták, városi hangulat. Ezután visszaindultam észak felé. Útközben megálltam Udine és Palmanova városában is – csak sétálni, nézni, befogadni az utazás ritmusát. \n \n ## Vihar, sátor, kitartás ## \n \n  Nem volt minden könnyű. \n \n  Az út során több napig tartó erős viharba kerültem. Volt olyan éjszaka, amikor komolyan azt hittem, hogy ennek vége. De a sátram – amiben végig aludtam – megbízhatónak bizonyult, kibírt mindent. Ezek a pillanatok tanítanak meg arra, hogy mennyire kevés is elég, ha bízol magadban és a felszerelésedben. \n \n ## A számok mögött az élmény ## \n \n  kb. 10 nap\n \n  kb. 3500 kilométer \n \n  végig sátorban \n \n  több ország, megszámlálhatatlan élmény \n \n Ez nem csak egy motoros túra volt. Ez egy életérzés, egy bizonyíték arra, hogy a világ tele van jó emberekkel, és hogy az út mindig ad valamit annak, aki elindul. \n \n Ride. Rock. Repeat."
+      },
+
+      "en": {
+        "featuredText": "Featured article:",
+        "title": "My trip through Hungary, Slovenia, and Italy",
+        "slug": "my-trip-through-hungary-slovenia-italy",
+        "excerpt": "A motorcycle journey where roads, mountains and freedom meet.",
+        "content": "\n \n ## Nomadic Motorcycle Journey Across Europe – 3500 km of Freedom ## \n \n This journey was not a classic “from A to B” tour. \n \n It was a nomadic motorcycle journey – with camping, strangers, storms, adrenaline, and that feeling that makes you get on a bike in the first place: freedom. \n \n ## Departure from Kisvárda – the first kilometers ## \n \n The journey started in Kisvárda. I rode across Hungary, letting the road guide me, without a minute-by-minute plan. The first major stop was Budapest, where I met my dear friend and we had a great lunch together – from that point on, it became clear that this would be much more than a simple ride. \n \n ## Lake Balaton – water and calm ## \n \n The next important stop was Lake Balaton. Swimming, stopping, slowing down. This is when you truly feel that you are not in a hurry. The bike rests, the mind clears, and the journey continues. \n \n ## Csesztreg – where strangers become family ## \n \n The first truly memorable night was in Csesztreg, near the Hungarian–Austrian–Slovenian border. I stayed with a completely unknown family who allowed me to camp in their garden. I found them on 1nitetent.com – and they exceeded all my expectations. They were incredibly kind, open, and helpful. This is the point where you start believing in people again. \n \n ## Slovenia – mountains, curves, back roads ## \n \n From there, I continued through Slovenia, riding on public roads, through mountains and endless curves. From a motorcyclist’s perspective, this is pure paradise: diverse landscapes, great roads, breathtaking views. Every kilometer here is an experience. ",
+        "carouselText": "A few more photos:",
+         "contentSecondPart": " \n \n ## Italy – sea, cities, history ## \n \n From Slovenia, I rode into Italy. Near Grado, I finally reached the sea – swimming, salt water, sunshine. I spent the night in Aquileia, a city where history feels alive between the stones. Of course, Venice could not be missed – walking, getting lost in the streets, just observing. After that, I headed south: through San Marino all the way to Ancona.  \n \n ## More strangers, more kindness ## \n \n Near Ancona, I stayed again with a family I found on 1nitetent.com. The same experience once more: strangers who welcomed me as if I were an old friend. These are the moments that stay with you forever. Riccione, Rimini, then back north. The journey continued: Riccione – rest and recovery. \n \n Rimini – evening walks, city atmosphere. After that, I headed north again. Along the way, I stopped in the cities of Udine and Palmanova – just to walk, observe, and absorb the rhythm of the journey. \n \n ## Storms, tent, endurance ## \n \n  Not everything was easy. \n \n  During the journey, I was caught in strong storms that lasted for several days. There were nights when I seriously thought this was the end. But my tent – which I slept in throughout the entire trip – proved to be reliable and withstood everything. These moments teach you how little is actually enough when you trust yourself and your gear. \n \n ## Beyond the numbers ## \n \n  approx. 10 days\n \n  approx. 3500 kilometers \n \n  sleeping in a tent the entire time \n \n  multiple countries, countless experiences \n \n This was not just a motorcycle trip. It was a way of life, proof that the world is full of good people, and that the road always gives something back to those who dare to set off. \n \n Ride. Rock. Repeat."
+      }
+    },
+    {
+      "id": 2,
+      "featuredPlaylist": true,
+      "isActive": true,
+       "isArticle": false,
+      "isPlaylist": true,
+      "isThereLinks": true,
+      "category": "playlist",
+      "image": "images/nu_metal.png",
+      "date": "2026-01-30",
+      "linkOne": "https://www.youtube.com/watch?v=KvknOXGPzCQ&list=RDKvknOXGPzCQ&start_radio=1",
+      "linkOneName": "Deftones – Be Quiet and Drive, ",
+      "linkTwo": "https://www.youtube.com/watch?v=2chcvo_70N0&list=RD2chcvo_70N0&start_radio=1",
+      "linkTwoName": "Sleep Token – Hypnosis, ",
+      "linkThree": "https://www.youtube.com/watch?v=O_IIAYZL1R4&list=RDO_IIAYZL1R4&start_radio=1",
+      "linkThreeName": "Deftones – Digital Bath, ",
+      "linkFour": "https://www.youtube.com/watch?v=mFC4LlVf82Y&list=RDmFC4LlVf82Y&start_radio=1",
+      "linkFourName": "Leap – Do or Die, ",
+      "linkFive": "https://www.youtube.com/watch?v=nmyW284Az7M&list=RDnmyW284Az7M&start_radio=1",
+      "linkFiveName": "Deftones – Moana, ",
+      "linkSix": "https://www.youtube.com/watch?v=BgTePWV_bAE&list=RDBgTePWV_bAE&start_radio=1",
+      "linkSixName": "Kami Kehoe – Dopamine, ",
+      "linkSeven": "https://www.youtube.com/watch?v=FYgtCNaICUg&list=RDFYgtCNaICUg&start_radio=1",
+      "linkSevenName": "Deftones – Kimdracula, ",
+      "linkEight": "https://www.youtube.com/watch?v=vZsdbbDhF70&list=RDvZsdbbDhF70&start_radio=1",
+      "linkEightName": "Matter of Mind – Bad Things, ",
+      "linkNine": "https://www.youtube.com/results?search_query=Adema+%E2%80%93+Givin+In%2C",
+      "linkNineName": "Adema – Givin In, ",
+      "linkTen": "https://www.youtube.com/watch?v=SbXn7Osj0qY&list=RDSbXn7Osj0qY&start_radio=1",
+      "linkTenName": "Disturbed – Overburdened ",
+      "hu": {
+        "featuredText": "Kiemelt playliszt:",
+        "title": "NU-METAL playliszt a tura kezdéshez",
+        "slug": "nu-metal-playliszt-a-tura-kezdéshez",
+        "excerpt": "Egy motoros túra első percei különlegesek. A motor még hideg, a fej...",
+        "content": " \n \n ## Top 10 dal tempós motorozáshoz – túraindító playlist ## \n \n Egy motoros túra első percei különlegesek. A motor még hideg, a fej tele van gondolatokkal, az út pedig csak most kezd kinyílni. Ilyenkor a zene nem háttér, hanem iránytű: segít ritmust találni, fókuszálni, átváltani utazó üzemmódba. \n \n Ez a playlist nem szigorúan nu-metal. Inkább egy **érzés**, egy sötétebb, groove-os, alternatív vonal, ami tökéletes a tempós motorozáshoz és a túra elejéhez. \n \n 1. Deftones – Be Quiet and Drive (Far Away) \n \n Klasszikus nyitódal. Melankólia és lendület egyszerre. Ideális, amikor elhagyod a várost, és elkezdesz ráhangolódni az útra. \n \n 2. Sleep Token – Hypnosis \n \n Nem nu-metal, de hipnotikus, súlyos és magával húz. Motoron különösen jól működik, amikor a fókusz kerül előtérbe. \n \n 3. Deftones – Digital Bath \n \n Sötét, pulzáló, atmoszférikus. Hosszú egyenesekhez, nyugodt tempóhoz, amikor csak az aszfalt és a gondolataid maradnak. \n \n 4. Leap – Do or Die \n \n Modern energia, lendületes tempó. Jó választás, amikor már meleg a motor, és elkezdesz igazán haladni. \n \n 5. Deftones – Moana \n \n Lebegős, érzelmes, mégis feszült. Inkább belső utazás, mint agresszió – tökéletes egy hosszabb szakaszra. \n \n 6. Kami Kehoe – Dopamine \n \n Alternatív, friss hangzás, jó groove. Nem akar túl sokat, pont ezért működik jól tempós haladáshoz. \n \n 7. Deftones – Kimdracula \n \n Kaotikus, mégis kontrollált. Ritmusváltások, feszültség – igazi motoros dal, ha jönnek a kanyarok. \n \n 8. Matter of Mind – Bad Things \n \n Sötét tónus, modern metalos hangzás. Jól illik borús időhöz vagy koncentrált, határozott motorozáshoz. \n \n 9. Adema – Givin In \n \n Régi iskola. Nyers érzelmek, őszinte hangulat. Klasszikus nu-metal vibe, ami ma is működik az úton. \n \n 10. Disturbed – Overburdened \n \n Lassabb, súlyosabb zárás. Inkább belső levezetés, amikor már benne vagy az utazás ritmusában. \n \n Ez a playlist nem a végsebességről szól. Hanem a **lendületről, fókuszról és az első kilométerek hangulatáról**. Amikor még minden előtted van. \n \n Tedd fel induláskor, állítsd be a tempót, és hagyd, hogy az út dolgozzon. \n \n **Ride. Rock. Repeat.**"
+      },
+      "en": {
+        "featuredText": "Best playlist:",
+        "title": "NU-METAL playlist for tour start",
+        "slug": "nu-metal-playlist-for-tour-start",
+        "excerpt": "The first moments of a motorcycle tour are special. The engine is still cold...",
+        "content": " \n \n ## Top 10 tracks for fast-paced riding – a tour kick-off playlist ## \n \n The first moments of a motorcycle tour are special. The engine is still cold, your head is full of thoughts, and the road is only just beginning to open up. At this point, music is not background noise but a compass: it helps you find your rhythm, focus, and switch into travel mode. \n \n This playlist is not strictly nu-metal. It’s more about a **feeling** — a darker, groove-driven, alternative vibe that’s perfect for fast-paced riding and the start of a journey. \n \n 1. Deftones – Be Quiet and Drive (Far Away) \n \n A classic opening track. Melancholy and momentum at the same time. Ideal for leaving the city behind and tuning into the road ahead. \n \n 2. Sleep Token – Hypnosis \n \n Not nu-metal, but hypnotic, heavy, and pulling you in. It works especially well on a bike, when focus takes priority. \n \n 3. Deftones – Digital Bath \n \n Dark, pulsing, atmospheric. Perfect for long straights and a calm pace, when it’s just the asphalt and your thoughts. \n \n 4. Leap – Do or Die \n \n Modern energy with a driving tempo. A great choice when the engine is warm and you start to really move. \n \n 5. Deftones – Moana \n \n Floating, emotional, yet tense. More of an inner journey than aggression — ideal for longer stretches. \n \n 6. Kami Kehoe – Dopamine \n \n Alternative, fresh sound with a solid groove. It doesn’t try too hard, and that’s exactly why it works so well for fast-paced riding. \n \n 7. Deftones – Kimdracula \n \n Chaotic yet controlled. Rhythm changes and tension — a true rider’s track when the curves begin. \n \n 8. Matter of Mind – Bad Things \n \n Dark tones with a modern metal edge. Fits perfectly with gloomy weather or focused, determined riding. \n \n 9. Adema – Givin In \n \n Old school. Raw emotions and an honest vibe. A classic nu-metal feel that still works on the road today. \n \n 10. Disturbed - Overburdened \n \n A slower, heavier closing track. More of an internal cooldown, when you’re already locked into the rhythm of the journey. \n \n This playlist isn’t about top speed. It’s about **momentum, focus, and the mood of the first kilometers** — when everything is still ahead of you. \n \n Play it at the start, set your pace, and let the road do the work. \n \n **Ride. Rock. Repeat.**"
+      }
+    },
+    {
+      "id": 3,
+      "about": true,
+      "featuredPlaylist": false,
+      "isActive": true,
+       "isArticle": false,
+      "isPlaylist": false,
+      "category": "about me",
+      "date": "2026-02-01",
+      "hu": {
+        "aboutText": "\n \n Szia, Dániel vagyok. \n \n Magyarországon élek, motorozom, kódolok, és keresem az utat – szó szerint és átvitt értelemben is. \n \n A motorozás nem hobbi számomra, hanem életforma. Nemrég egy sport-touring motort cseréltem le egy cruiserre, egy Yamaha Virago 535-re, és ezzel együtt kicsit a tempó is megváltozott: kevesebb rohanás, több élmény, több kilométer történettel. Hiszek abban, hogy az út legalább annyira fontos, mint a cél. \n  \n A digitális világban front end fejlesztéssel foglalkozom: HTML, CSS, JavaScript, TypeScript és Angular – szeretem, amikor a design és a funkcionalitás találkozik, és egy ötletből működő, élő felület lesz. \n \n A háttérben szinte mindig rock zene szól, leginkább nu-metal. Energia, őszinteség, súly – ezek ugyanúgy inspirálnak a kódban, mint az utakon. \n \n Az álmom egyszerű, de nagy: körbemotorozni a világot. Addig pedig megyek tovább, tanulok, építek, utazom – és megosztom mindazt, amit útközben találok. \n \n Ride. Rock. Repeat. "
+      
+      },
+      "en": {
+        "aboutText": " \n \n Hi, I’m Dániel. \n  \n I live in Hungary, I ride motorcycles, I code, and I’m constantly searching for the road — both literally and figuratively. \n  \nMotorcycling isn’t just a hobby for me; it’s a way of life. Recently, I swapped my sport-touring bike for a cruiser — a Yamaha Virago 535 — and with that, my pace changed as well: less rushing, more experience, more miles with stories behind them. I believe the journey matters just as much as the destination. \n  \n In the digital world, I focus on front-end development: HTML, CSS, JavaScript, TypeScript, and Angular. I love when design and functionality meet, and an idea turns into a living, breathing interface. \n \n There’s almost always rock music playing in the background, mostly nu-metal. Energy, honesty, and weight — these inspire me just as much in code as they do on the road. \n \n My dream is simple, but big: to ride a motorcycle around the world. Until then, I keep moving, learning, building, traveling — and sharing what I find along the way. \n \n Ride. Rock. Repeat."
+        
+      }
+    },
+    {
+      "id": 4,
+      "featured": false,
+      "isActive": true,
+      "isArticle": true,
+      "isPlaylist": false,
+      "category": "motor",
+      "image": "https://ucarecdn.com/487593a4-8199-4987-a97e-faac4f1c9e75/-/format/auto/-/preview/3000x3000/-/quality/lighter/camping%20systems.jpg",
+      "date": "2026-02-01",
+      "isThereCarousel": false,
+      "hu": {
+       
+        "title": "Top-20 dolog, ami must-have egy nomad motoros utazásban.",
+        "slug": "top-20-dolog-must-have-nomad-utazasban",
+        "excerpt": "Ezek együtt adják azt a minimumot, amivel *bárhol megállhatsz aludni",
+        "content": " \n \n ## Top 20 dolog, amit kötelező magaddal vinni egy motoros nomád utazásra ## \n \n Egy motoros nomád utazás nem a luxusról szól, hanem a szabadságról, az önállóságról és arról, hogy bárhol meg tudj állni – és tovább tudj menni. A felszerelésed szó szerint az életed része lesz, ezért nem mindegy, mit viszel magaddal. \n \n Íme a **top 20 alapvető dolog**, ami nélkül ne indulj el. \n \n 1. Megbízható sátor – könnyű, vízálló, szélálló \n \n 2. Jó minőségű hálózsák – az éjszakák hidegek lehetnek, nyáron is \n \n 3. Derékalj vagy felfújható matrac – a pihenés nem luxus, hanem túlélés \n \n 4. Esőruha – külön, motoros kivitelben \n \n 5. Tartalék kesztyű – egy vizes kesztyű rémálom \n \n 6. Többrétegű ruházat – hőség és hideg is jöhet egy napon belül \n \n 7. Strapabíró motoros csizma \n \n 8. Power bank + töltőkábelek \n \n 9. Offline térkép vagy letöltött navigáció \n \n 10. Alap szerszámkészlet a motorhoz \n \n 11. Láncspray és minimális karbantartó cuccok \n \n 12. Fejlámpa vagy zseblámpa – esti pakolásnál aranyat ér \n \n 13. Víztartály vagy kulacs \n \n 14. Gyorsan száradó törölköző \n \n 15. Higiéniai alapcsomag (fogkefe, nedves törlőkendő, papír) \n \n 16. Mini elsősegélycsomag \n \n 17. Dokumentumok vízálló tokban \n \n 18. Napszemüveg + naptej \n \n 19. Egy jó bicska vagy multi-tool \n \n 20. Nyitottság és rugalmasság – ez nem tárgy, de kötelező \n \n Ezek együtt adják azt a minimumot, amivel **bárhol megállhatsz aludni, továbbindulhatsz, és megoldod a váratlan helyzeteket**. \n \n  ## Bónusz: Top 10 felesleges dolog, amit nyugodtan otthon hagyhatsz ## \n \n Nomád utazásnál minden gramm számít. Sok dolgot hajlamosak vagyunk „biztos ami biztos” alapon elvinni – pedig csak útban lesznek. \n \n 1. Több pár utcai cipő \n \n 2. „Hátha kell” ruhák, amiket soha nem veszel fel \n \n 3. Nagyméretű törölköző \n \n 4. Laptop (ha nem dolgozol útközben) \n \n 5. Drága fotós felszerelés, ha nem ez a fő cél \n \n 6. Teljes konyhafelszerelés \n \n 7. Túl sok tartalék ruha \n \n 8. Felesleges dísztárgyak, kütyük \n \n 9. Vastag könyvek – e-book sokkal jobb \n \n 10. Előre gyártott, merev útiterv \n \n A nomád motoros utazás lényege az, hogy **kevesebb dologgal is teljes életet tudsz élni az úton**. Minél kevesebbet cipelsz, annál szabadabb leszel – fejben is. \n \n **Ride. Rock. Repeat.**"
+      },
+
+      "en": {
+        "title": "Top 20 must-haves for a nomadic motorcycle trip.",
+        "slug": "top-20-must-haves-for-nomadic-motorcycle-trip",
+        "excerpt": " Your gear literally becomes part of your life, so what you pack truly matters. \n \n",
+       "content": " \n \n ## Top 20 things you must bring on a nomadic motorcycle journey ## \n \n A nomadic motorcycle journey is not about luxury, but about freedom, self-reliance, and being able to stop anywhere — and keep moving. Your gear literally becomes part of your life, so what you pack truly matters. \n \n Here are the **top 20 essential items** you should never leave without. \n \n 1. A reliable tent – lightweight, waterproof, windproof \n \n 2. A high-quality sleeping bag – nights can get cold, even in summer \n \n 3. Sleeping pad or inflatable mattress – rest is not a luxury, it’s survival \n \n 4. Rain gear – separate, motorcycle-specific \n \n 5. Spare gloves – wet gloves are a nightmare \n \n 6. Layered clothing – heat and cold can come on the same day \n \n 7. Durable motorcycle boots \n \n 8. Power bank + charging cables \n \n 9. Offline maps or downloaded navigation \n \n 10. Basic tool kit for your motorcycle \n \n 11. Chain lube and minimal maintenance supplies \n \n 12. Headlamp or flashlight – invaluable when packing at night \n \n 13. Water container or bottle \n \n 14. Quick-drying towel \n \n 15. Basic hygiene kit (toothbrush, wet wipes, paper) \n \n 16. Small first aid kit \n \n 17. Documents in a waterproof case \n \n 18. Sunglasses + sunscreen \n \n 19. A good knife or multi-tool \n \n 20. Openness and flexibility – not an item, but mandatory \n \n Together, these form the minimum setup that allows you to **sleep anywhere, move on anytime, and handle unexpected situations**. \n \n ## Bonus: Top 10 unnecessary things you can safely leave at home ## \n \n On a nomadic journey, every gram counts. We tend to pack many items “just in case” — but most of them only get in the way. \n \n 1. Multiple pairs of casual shoes \n \n 2. “Just in case” clothes you never actually wear \n \n 3. Large, bulky towels \n \n 4. A laptop (if you’re not working on the road) \n \n 5. Expensive camera gear if it’s not your main purpose \n \n 6. A full kitchen setup \n \n 7. Too many spare clothes \n \n 8. Unnecessary gadgets and decorations \n \n 9. Heavy physical books – an e-book is much better \n \n 10. A rigid, pre-planned itinerary \n \n The essence of nomadic motorcycle travel is realizing that **you can live fully on the road with far fewer possessions**. The less you carry, the freer you become — mentally as well. \n \n **Ride. Rock. Repeat.**"
+        }
+    }
+
+  ]
+}
+
